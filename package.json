@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "hltv": "^3.5.0"
+    "hltv": "^3.5.0",
+    "mongoose": "^8.5.1"
   }
 }

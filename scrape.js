@@ -1,13 +1,12 @@
-const HLTV = require('hltv');
-const fs = require('fs');
+const { HLTV } = require('hltv');
 const mongoose = require('mongoose');
-const Event = require('./models/Event'); // Import the Event model
+const Event = require('./models/Tournament'); // Import the Event model
 
 // MongoDB connection string
-const mongoURI = 'your_mongodb_connection_string_here';
+const mongoURI = 'mongodb+srv://muhammadhamza:kAxvPXj0vWHfjrsq@test.8y5a9sh.mongodb.net/HLTV-Data?retryWrites=true&w=majority'; // Updated MongoDB URI
 
 // Connect to MongoDB
-mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect(mongoURI)
     .then(() => console.log('MongoDB connected'))
     .catch(err => console.error('MongoDB connection error:', err));
 
@@ -16,27 +15,41 @@ async function getEventData(eventId) {
         const event = await HLTV.getEvent({ id: eventId });
         return {
             id: event.id,
-            name: event.name,
+            tournamentName: event.name, // Updated to match the schema
             dateStart: new Date(event.dateStart),
             dateEnd: new Date(event.dateEnd),
-            location: event.location,
+            location: event.location ? `${event.location.name} (${event.location.code})` : 'Unknown', // Convert location object to string
             prizePool: event.prizePool,
-            teams: event.teams.map(team => ({ name: team.name, id: team.id })),
-            matches: event.matches.map(match => ({
+            teams: event.teams ? event.teams.map(team => ({ name: team.name, id: team.id })) : [], // Added check for undefined
+            matches: event.matches ? event.matches.map(match => ({
                 id: match.id,
                 team1: match.team1.name,
                 team2: match.team2.name,
                 date: new Date(match.date),
                 result: match.result
-            }))
+            })) : [] // Added check for undefined
         };
     } catch (error) {
         console.error(`Error fetching event data: ${error}`);
     }
 }
 
+async function getAllTournaments() {
+    try {
+        const tournaments = await HLTV.getEvents(); // Ensure getEvents is correctly called
+        return tournaments.map(tournament => tournament.id);
+    } catch (error) {
+        console.error(`Error fetching tournaments: ${error}`);
+        return []; // Return an empty array in case of error
+    }
+}
+
 async function main() {
-    const eventIds = [7148]; // Add more event IDs as needed
+    const eventIds = await getAllTournaments();
+    if (!Array.isArray(eventIds)) {
+        console.error('eventIds is not an array');
+        return;
+    }
     const eventsData = [];
 
     for (const eventId of eventIds) {
@@ -44,15 +57,17 @@ async function main() {
         if (eventData) {
             eventsData.push(eventData);
 
-            // Save event data to MongoDB
-            const event = new Event(eventData);
-            await event.save();
+            // Save or update event data in MongoDB
+            const event = await Event.findOneAndUpdate(
+                { id: eventData.id }, // search query
+                eventData, // new data
+                { upsert: true, new: true } // options
+            );
         }
-    }
 
-    // Save data to JSON file
-    fs.writeFileSync('eventsData.json', JSON.stringify(eventsData, null, 2));
-    console.log('Data saved to eventsData.json');
+        // Delay to avoid getting banned
+        await new Promise(resolve => setTimeout(resolve, 5000)); // 5 seconds delay
+    }
 }
 
 main();

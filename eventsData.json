@@ -1,1 +1,1915 @@
-[]
+[
+  {
+    "id": 7941,
+    "tournamentName": "European Pro League Season 17",
+    "dateStart": "2024-07-08T10:00:00.000Z",
+    "dateEnd": "2024-07-25T10:00:00.000Z",
+    "location": "Europe (Online) (EU)",
+    "prizePool": "$20,000",
+    "teams": [
+      {
+        "name": "Rebels",
+        "id": 12642
+      },
+      {
+        "name": "Passion UA",
+        "id": 12426
+      },
+      {
+        "name": "Insilio",
+        "id": 12124
+      },
+      {
+        "name": "Johnny Speeds",
+        "id": 12604
+      },
+      {
+        "name": "Enterprise",
+        "id": 10873
+      },
+      {
+        "name": "Permitta",
+        "id": 12009
+      },
+      {
+        "name": "ALTERNATE aTTaX",
+        "id": 4501
+      },
+      {
+        "name": "kONO",
+        "id": 12858
+      },
+      {
+        "name": "Endpoint",
+        "id": 7234
+      },
+      {
+        "name": "9INE",
+        "id": 10278
+      },
+      {
+        "name": "Verdant",
+        "id": 12374
+      },
+      {
+        "name": "UNiTY",
+        "id": 12267
+      },
+      {
+        "name": "Preasy",
+        "id": 12334
+      },
+      {
+        "name": "Revenant",
+        "id": 12418
+      },
+      {
+        "name": "ROSOMAHA",
+        "id": 12876
+      },
+      {
+        "name": "Illuminar",
+        "id": 8813
+      }
+    ],
+    "matches": []
+  },
+  {
+    "id": 7948,
+    "tournamentName": "CCT Season 2 South America Series 2",
+    "dateStart": "2024-07-15T10:00:00.000Z",
+    "dateEnd": "2024-08-02T10:00:00.000Z",
+    "location": "South America (Online) (SAM)",
+    "prizePool": "$20,000",
+    "teams": [
+      {
+        "name": "inSanitY",
+        "id": 2516
+      },
+      {
+        "name": "Bounty Hunters",
+        "id": 12776
+      },
+      {
+        "name": "Solid",
+        "id": 12233
+      },
+      {
+        "name": "Case",
+        "id": 10894
+      },
+      {
+        "name": "KRÜ",
+        "id": 10900
+      },
+      {
+        "name": "Hype",
+        "id": 12035
+      },
+      {
+        "name": "Galorys",
+        "id": 12677
+      },
+      {
+        "name": "Vikings KR",
+        "id": 12755
+      },
+      {
+        "name": "Patins da Ferrari",
+        "id": 11011
+      },
+      {
+        "name": "Intense",
+        "id": 12318
+      },
+      {
+        "name": "SPORT",
+        "id": 12866
+      },
+      {
+        "name": "Dusty Roots",
+        "id": 12548
+      },
+      {
+        "name": "9z Academy",
+        "id": 11006
+      },
+      {
+        "name": "Hawks",
+        "id": 10387
+      },
+      {
+        "name": "FURIA Academy",
+        "id": 8885
+      },
+      {
+        "name": "Yawara",
+        "id": 11933
+      }
+    ],
+    "matches": []
+  },
+  {
+    "id": 7945,
+    "tournamentName": "Elisa Invitational Fall 2024 Contenders",
+    "dateStart": "2024-07-15T10:00:00.000Z",
+    "dateEnd": "2024-08-08T10:00:00.000Z",
+    "location": "Europe (Online) (EU)",
+    "prizePool": "Elisa Inv. Fall '24 spots",
+    "teams": [
+      {
+        "name": "Enterprise",
+        "id": 10873
+      },
+      {
+        "name": "EYEBALLERS",
+        "id": 11737
+      },
+      {
+        "name": "Sampi",
+        "id": 10695
+      },
+      {
+        "name": "Permitta",
+        "id": 12009
+      },
+      {
+        "name": "ALTERNATE aTTaX",
+        "id": 4501
+      },
+      {
+        "name": "Rhyno",
+        "id": 10947
+      },
+      {
+        "name": "ECLOT",
+        "id": 7441
+      },
+      {
+        "name": "kONO",
+        "id": 12858
+      },
+      {
+        "name": "FAVBET",
+        "id": 12818
+      },
+      {
+        "name": "HAVU",
+        "id": 7865
+      },
+      {
+        "name": "Lilmix",
+        "id": 9735
+      },
+      {
+        "name": "Nexus",
+        "id": 7187
+      },
+      {
+        "name": "INFINITE",
+        "id": 10823
+      },
+      {
+        "name": "TNL",
+        "id": 12833
+      },
+      {
+        "name": "DASH",
+        "id": 12885
+      },
+      {
+        "name": "Meteor",
+        "id": 12886
+      }
+    ],
+    "matches": []
+  },
+  {
+    "id": 7804,
+    "tournamentName": "ESL Challenger League Season 48 South America",
+    "dateStart": "2024-07-15T10:00:00.000Z",
+    "dateEnd": "2024-10-20T10:00:00.000Z",
+    "location": "South America (Online) (SAM)",
+    "prizePool": "$60,000",
+    "teams": [
+      {
+        "name": "MIBR",
+        "id": 9215
+      },
+      {
+        "name": "paiN",
+        "id": 4773
+      },
+      {
+        "name": "Imperial",
+        "id": 9455
+      },
+      {
+        "name": "RED Canids",
+        "id": 7176
+      },
+      {
+        "name": "BESTIA",
+        "id": 12144
+      },
+      {
+        "name": "Fluxo",
+        "id": 11837
+      },
+      {
+        "name": "Sharks",
+        "id": 8113
+      },
+      {
+        "name": "inSanitY",
+        "id": 2516
+      },
+      {
+        "name": "ODDIK",
+        "id": 11768
+      },
+      {
+        "name": "Solid",
+        "id": 12233
+      },
+      {
+        "name": "Case",
+        "id": 10894
+      },
+      {
+        "name": "KRÜ",
+        "id": 10900
+      },
+      {
+        "name": "Hype",
+        "id": 12035
+      },
+      {
+        "name": "Galorys",
+        "id": 12677
+      },
+      {
+        "name": "Dusty Roots",
+        "id": 12548
+      },
+      {
+        "name": "Smoke",
+        "id": 12872
+      }
+    ],
+    "matches": []
+  },
+  {
+    "id": 7803,
+    "tournamentName": "ESL Challenger League Season 48 North America",
+    "dateStart": "2024-07-15T10:00:00.000Z",
+    "dateEnd": "2024-10-20T10:00:00.000Z",
+    "location": "North America (Online) (NAM)",
+    "prizePool": "$80,000",
+    "teams": [
+      {
+        "name": "M80",
+        "id": 12376
+      },
+      {
+        "name": "Legacy",
+        "id": 12468
+      },
+      {
+        "name": "Party Astronauts",
+        "id": 8038
+      },
+      {
+        "name": "Nouns",
+        "id": 11948
+      },
+      {
+        "name": "Wildcard",
+        "id": 12257
+      },
+      {
+        "name": "Elevate",
+        "id": 5775
+      },
+      {
+        "name": "NRG",
+        "id": 6673
+      },
+      {
+        "name": "BOSS",
+        "id": 12534
+      },
+      {
+        "name": "Mythic",
+        "id": 5479
+      },
+      {
+        "name": "LAG",
+        "id": 11955
+      },
+      {
+        "name": "E-Xolos LAZER",
+        "id": 12722
+      },
+      {
+        "name": "Perseverance",
+        "id": 12844
+      },
+      {
+        "name": "FLUFFY AIMERS",
+        "id": 12245
+      },
+      {
+        "name": "Take Flyte",
+        "id": 11660
+      },
+      {
+        "name": "Limitless",
+        "id": 11388
+      },
+      {
+        "name": "Revenge Nation",
+        "id": 12762
+      }
+    ],
+    "matches": []
+  },
+  {
+    "id": 7950,
+    "tournamentName": "RES Regional Series 6 Europe",
+    "dateStart": "2024-07-15T10:00:00.000Z",
+    "dateEnd": "2024-07-22T10:00:00.000Z",
+    "location": "Europe (Online) (EU)",
+    "prizePool": "$100,000",
+    "teams": [
+      {
+        "name": "Ninjas in Pyjamas",
+        "id": 4411
+      },
+      {
+        "name": "fnatic",
+        "id": 4991
+      },
+      {
+        "name": "B8",
+        "id": 11241
+      },
+      {
+        "name": "Sangal",
+        "id": 10333
+      },
+      {
+        "name": "Zero Tenacity",
+        "id": 11523
+      },
+      {
+        "name": "Nemiga",
+        "id": 7969
+      },
+      {
+        "name": "BLEED",
+        "id": 12543
+      },
+      {
+        "name": "MOUZ NXT",
+        "id": 11176
+      },
+      {
+        "name": "Rebels",
+        "id": 12642
+      },
+      {
+        "name": "Passion UA",
+        "id": 12426
+      },
+      {
+        "name": "EYEBALLERS",
+        "id": 11737
+      },
+      {
+        "name": "Rhyno",
+        "id": 10947
+      },
+      {
+        "name": "Aurora Young Blud",
+        "id": 12366
+      },
+      {
+        "name": "CYBERSHOKE",
+        "id": 12380
+      },
+      {
+        "name": "9INE",
+        "id": 10278
+      },
+      {
+        "name": "Nexus",
+        "id": 7187
+      }
+    ],
+    "matches": []
+  },
+  {
+    "id": 7800,
+    "tournamentName": "ESL Challenger League Season 48 Europe",
+    "dateStart": "2024-07-15T10:00:00.000Z",
+    "dateEnd": "2024-10-20T10:00:00.000Z",
+    "location": "Europe (Online) (EU)",
+    "prizePool": "$100,000",
+    "teams": [
+      {
+        "name": "Aurora",
+        "id": 11861
+      },
+      {
+        "name": "3DMAX",
+        "id": 4914
+      },
+      {
+        "name": "SAW",
+        "id": 10567
+      },
+      {
+        "name": "B8",
+        "id": 11241
+      },
+      {
+        "name": "Sashi",
+        "id": 11712
+      },
+      {
+        "name": "Sangal",
+        "id": 10333
+      },
+      {
+        "name": "PERA",
+        "id": 12524
+      },
+      {
+        "name": "Zero Tenacity",
+        "id": 11523
+      },
+      {
+        "name": "KOI",
+        "id": 12591
+      },
+      {
+        "name": "Nemiga",
+        "id": 7969
+      },
+      {
+        "name": "9 Pandas",
+        "id": 11883
+      },
+      {
+        "name": "Rebels",
+        "id": 12642
+      },
+      {
+        "name": "Monte",
+        "id": 11811
+      },
+      {
+        "name": "GUN5",
+        "id": 12471
+      },
+      {
+        "name": "Insilio",
+        "id": 12124
+      },
+      {
+        "name": "PARIVISION",
+        "id": 12467
+      },
+      {
+        "name": "SINNERS",
+        "id": 10577
+      },
+      {
+        "name": "EYEBALLERS",
+        "id": 11737
+      },
+      {
+        "name": "Space",
+        "id": 12388
+      },
+      {
+        "name": "ARCRED",
+        "id": 10459
+      },
+      {
+        "name": "RUSH B",
+        "id": 12559
+      },
+      {
+        "name": "brazylijski luz",
+        "id": 12745
+      },
+      {
+        "name": "TSM",
+        "id": 5996
+      },
+      {
+        "name": "Betera",
+        "id": 12431
+      }
+    ],
+    "matches": []
+  },
+  {
+    "id": 7947,
+    "tournamentName": "Shuffle Masters Season 1",
+    "dateStart": "2024-07-15T10:00:00.000Z",
+    "dateEnd": "2024-07-20T10:00:00.000Z",
+    "location": "Europe (Online) (EU)",
+    "prizePool": "$10,000",
+    "teams": [
+      {
+        "name": "PERA",
+        "id": 12524
+      },
+      {
+        "name": "Johnny Speeds",
+        "id": 12604
+      },
+      {
+        "name": "Enterprise",
+        "id": 10873
+      },
+      {
+        "name": "SINNERS",
+        "id": 10577
+      },
+      {
+        "name": "kONO",
+        "id": 12858
+      },
+      {
+        "name": "9INE",
+        "id": 10278
+      },
+      {
+        "name": "Verdant",
+        "id": 12374
+      },
+      {
+        "name": "Revenant",
+        "id": 12418
+      },
+      {
+        "name": "CPH Wolves",
+        "id": 4548
+      },
+      {
+        "name": "TSM",
+        "id": 5996
+      },
+      {
+        "name": "Nexus",
+        "id": 7187
+      },
+      {
+        "name": "Preasy",
+        "id": 12334
+      },
+      {
+        "name": "500",
+        "id": 12000
+      },
+      {
+        "name": "FORZE Reload",
+        "id": 12857
+      },
+      {
+        "name": "Young Ninjas",
+        "id": 10960
+      },
+      {
+        "name": "Betera",
+        "id": 12431
+      }
+    ],
+    "matches": []
+  },
+  {
+    "id": 7899,
+    "tournamentName": "CCT Season 2 Europe Series 6",
+    "dateStart": "2024-07-15T10:00:00.000Z",
+    "dateEnd": "2024-07-28T10:00:00.000Z",
+    "location": "Europe (Online) (EU)",
+    "prizePool": "$50,000",
+    "teams": [
+      {
+        "name": "Passion UA",
+        "id": 12426
+      },
+      {
+        "name": "GUN5",
+        "id": 12471
+      },
+      {
+        "name": "SINNERS",
+        "id": 10577
+      },
+      {
+        "name": "Metizport",
+        "id": 11641
+      },
+      {
+        "name": "VP.Prodigy",
+        "id": 10864
+      },
+      {
+        "name": "Sampi",
+        "id": 10695
+      },
+      {
+        "name": "DMS",
+        "id": 12747
+      },
+      {
+        "name": "Space",
+        "id": 12388
+      },
+      {
+        "name": "Permitta",
+        "id": 12009
+      },
+      {
+        "name": "ALTERNATE aTTaX",
+        "id": 4501
+      },
+      {
+        "name": "RUBY",
+        "id": 12694
+      },
+      {
+        "name": "Aurora Young Blud",
+        "id": 12366
+      },
+      {
+        "name": "Endpoint",
+        "id": 7234
+      },
+      {
+        "name": "CPH Wolves",
+        "id": 4548
+      },
+      {
+        "name": "WOPA",
+        "id": 12787
+      },
+      {
+        "name": "BC.Game",
+        "id": 12878
+      }
+    ],
+    "matches": []
+  },
+  {
+    "id": 7940,
+    "tournamentName": "EPL World Series Americas Season 9",
+    "dateStart": "2024-07-05T10:00:00.000Z",
+    "dateEnd": "2024-07-22T10:00:00.000Z",
+    "location": "South America (Online) (SAM)",
+    "prizePool": "$10,000",
+    "teams": [
+      {
+        "name": "BESTIA",
+        "id": 12144
+      },
+      {
+        "name": "ODDIK",
+        "id": 11768
+      },
+      {
+        "name": "Case",
+        "id": 10894
+      },
+      {
+        "name": "Hype",
+        "id": 12035
+      },
+      {
+        "name": "KRÜ",
+        "id": 10900
+      },
+      {
+        "name": "Patins da Ferrari",
+        "id": 11011
+      },
+      {
+        "name": "Vikings KR",
+        "id": 12755
+      },
+      {
+        "name": "Intense",
+        "id": 12318
+      },
+      {
+        "name": "W7M",
+        "id": 8574
+      },
+      {
+        "name": "Dusty Roots",
+        "id": 12548
+      },
+      {
+        "name": "SPORT",
+        "id": 12866
+      },
+      {
+        "name": "9z Academy",
+        "id": 11006
+      },
+      {
+        "name": "Hawks",
+        "id": 10387
+      },
+      {
+        "name": "FURIA Academy",
+        "id": 8885
+      },
+      {
+        "name": "MIBR Academy",
+        "id": 3044
+      },
+      {
+        "name": "paiN Academy",
+        "id": 11905
+      }
+    ],
+    "matches": []
+  },
+  {
+    "id": 7732,
+    "tournamentName": "Esports World Cup 2024",
+    "dateStart": "2024-07-17T10:00:00.000Z",
+    "dateEnd": "2024-07-21T10:00:00.000Z",
+    "location": "Riyadh, Saudi Arabia (SA)",
+    "prizePool": "$1,000,000",
+    "teams": [
+      {
+        "name": "Spirit",
+        "id": 7020
+      },
+      {
+        "name": "Vitality",
+        "id": 9565
+      },
+      {
+        "name": "MOUZ",
+        "id": 4494
+      },
+      {
+        "name": "FaZe",
+        "id": 6667
+      },
+      {
+        "name": "Natus Vincere",
+        "id": 4608
+      },
+      {
+        "name": "G2",
+        "id": 5995
+      },
+      {
+        "name": "Virtus.pro",
+        "id": 5378
+      },
+      {
+        "name": "Complexity",
+        "id": 5005
+      },
+      {
+        "name": "The MongolZ",
+        "id": 6248
+      },
+      {
+        "name": "FURIA",
+        "id": 8297
+      },
+      {
+        "name": "FlyQuest",
+        "id": 12774
+      },
+      {
+        "name": "MIBR",
+        "id": 9215
+      },
+      {
+        "name": "M80",
+        "id": 12376
+      },
+      {
+        "name": "Sashi",
+        "id": 11712
+      },
+      {
+        "name": "JiJieHao",
+        "id": 10245
+      }
+    ],
+    "matches": []
+  },
+  {
+    "id": 7847,
+    "tournamentName": "Skyesports Championship 2024",
+    "dateStart": "2024-07-23T10:00:00.000Z",
+    "dateEnd": "2024-07-28T10:00:00.000Z",
+    "location": "Mumbai, India (IN)",
+    "prizePool": "$290,000",
+    "teams": [
+      {
+        "name": "The MongolZ",
+        "id": 6248
+      },
+      {
+        "name": "Eternal Fire",
+        "id": 11251
+      },
+      {
+        "name": "BetBoom",
+        "id": 12394
+      },
+      {
+        "name": "Aurora",
+        "id": 11861
+      },
+      {
+        "name": "ENCE",
+        "id": 4869
+      },
+      {
+        "name": "3DMAX",
+        "id": 4914
+      },
+      {
+        "name": "AMKAL",
+        "id": 12586
+      },
+      {
+        "name": "BLEED",
+        "id": 12543
+      },
+      {
+        "name": "PARIVISION",
+        "id": 12467
+      },
+      {
+        "name": "DMS",
+        "id": 12747
+      },
+      {
+        "name": "Revenant",
+        "id": 12418
+      },
+      {
+        "name": "True Rippers",
+        "id": 12560
+      }
+    ],
+    "matches": []
+  },
+  {
+    "id": 7554,
+    "tournamentName": "BLAST Premier Fall Groups 2024",
+    "dateStart": "2024-07-29T10:00:00.000Z",
+    "dateEnd": "2024-08-04T10:00:00.000Z",
+    "location": "Copenhagen, Denmark (DK)",
+    "prizePool": "$190,000",
+    "teams": [
+      {
+        "name": "Spirit",
+        "id": 7020
+      },
+      {
+        "name": "Vitality",
+        "id": 9565
+      },
+      {
+        "name": "FaZe",
+        "id": 6667
+      },
+      {
+        "name": "Natus Vincere",
+        "id": 4608
+      },
+      {
+        "name": "G2",
+        "id": 5995
+      },
+      {
+        "name": "Virtus.pro",
+        "id": 5378
+      },
+      {
+        "name": "Astralis",
+        "id": 6665
+      },
+      {
+        "name": "Complexity",
+        "id": 5005
+      },
+      {
+        "name": "HEROIC",
+        "id": 7175
+      },
+      {
+        "name": "Liquid",
+        "id": 5973
+      },
+      {
+        "name": "Falcons",
+        "id": 11283
+      },
+      {
+        "name": "Ninjas in Pyjamas",
+        "id": 4411
+      },
+      {
+        "name": "BIG",
+        "id": 7532
+      },
+      {
+        "name": "GamerLegion",
+        "id": 9928
+      },
+      {
+        "name": "OG",
+        "id": 10503
+      },
+      {
+        "name": "Cloud9",
+        "id": 5752
+      }
+    ],
+    "matches": []
+  },
+  {
+    "id": 7675,
+    "tournamentName": "IEM Cologne 2024 Play-in",
+    "dateStart": "2024-08-07T10:00:00.000Z",
+    "dateEnd": "2024-08-09T10:00:00.000Z",
+    "location": "Cologne, Germany (DE)",
+    "prizePool": "IEM Cologne '24 spots",
+    "teams": [
+      {
+        "name": "Complexity",
+        "id": 5005
+      },
+      {
+        "name": "HEROIC",
+        "id": 7175
+      },
+      {
+        "name": "The MongolZ",
+        "id": 6248
+      },
+      {
+        "name": "9z",
+        "id": 9996
+      },
+      {
+        "name": "Eternal Fire",
+        "id": 11251
+      },
+      {
+        "name": "Liquid",
+        "id": 5973
+      },
+      {
+        "name": "Falcons",
+        "id": 11283
+      },
+      {
+        "name": "BIG",
+        "id": 7532
+      },
+      {
+        "name": "BetBoom",
+        "id": 12394
+      },
+      {
+        "name": "FURIA",
+        "id": 8297
+      },
+      {
+        "name": "FlyQuest",
+        "id": 12774
+      },
+      {
+        "name": "MIBR",
+        "id": 9215
+      },
+      {
+        "name": "paiN",
+        "id": 4773
+      },
+      {
+        "name": "Imperial",
+        "id": 9455
+      },
+      {
+        "name": "SAW",
+        "id": 10567
+      },
+      {
+        "name": "ALTERNATE aTTaX",
+        "id": 4501
+      }
+    ],
+    "matches": []
+  },
+  {
+    "id": 7436,
+    "tournamentName": "IEM Cologne 2024",
+    "dateStart": "2024-08-10T10:00:00.000Z",
+    "dateEnd": "2024-08-18T10:00:00.000Z",
+    "location": "Cologne, Germany (DE)",
+    "prizePool": "$1,000,000",
+    "teams": [
+      {
+        "name": "Spirit",
+        "id": 7020
+      },
+      {
+        "name": "Vitality",
+        "id": 9565
+      },
+      {
+        "name": "MOUZ",
+        "id": 4494
+      },
+      {
+        "name": "FaZe",
+        "id": 6667
+      },
+      {
+        "name": "Natus Vincere",
+        "id": 4608
+      },
+      {
+        "name": "G2",
+        "id": 5995
+      },
+      {
+        "name": "Virtus.pro",
+        "id": 5378
+      },
+      {
+        "name": "Astralis",
+        "id": 6665
+      }
+    ],
+    "matches": []
+  },
+  {
+    "id": 7555,
+    "tournamentName": "BLAST Premier Fall Showdown 2024",
+    "dateStart": "2024-08-21T10:00:00.000Z",
+    "dateEnd": "2024-08-25T10:00:00.000Z",
+    "location": "Europe (Online) (EU)",
+    "prizePool": "$135,000",
+    "teams": [
+      {
+        "name": "M80",
+        "id": 12376
+      },
+      {
+        "name": "AMKAL",
+        "id": 12586
+      },
+      {
+        "name": "Zero Tenacity",
+        "id": 11523
+      },
+      {
+        "name": "Rare Atom",
+        "id": 11514
+      }
+    ],
+    "matches": []
+  },
+  {
+    "id": 7441,
+    "tournamentName": "ESL Pro League Season 20",
+    "dateStart": "2024-09-03T10:00:00.000Z",
+    "dateEnd": "2024-09-22T10:00:00.000Z",
+    "location": "Malta (MT)",
+    "prizePool": "$750,000",
+    "teams": [
+      {
+        "name": "Spirit",
+        "id": 7020
+      },
+      {
+        "name": "Vitality",
+        "id": 9565
+      },
+      {
+        "name": "MOUZ",
+        "id": 4494
+      },
+      {
+        "name": "FaZe",
+        "id": 6667
+      },
+      {
+        "name": "Natus Vincere",
+        "id": 4608
+      },
+      {
+        "name": "G2",
+        "id": 5995
+      },
+      {
+        "name": "Virtus.pro",
+        "id": 5378
+      },
+      {
+        "name": "Astralis",
+        "id": 6665
+      },
+      {
+        "name": "Complexity",
+        "id": 5005
+      },
+      {
+        "name": "HEROIC",
+        "id": 7175
+      },
+      {
+        "name": "The MongolZ",
+        "id": 6248
+      },
+      {
+        "name": "9z",
+        "id": 9996
+      },
+      {
+        "name": "Eternal Fire",
+        "id": 11251
+      },
+      {
+        "name": "Liquid",
+        "id": 5973
+      },
+      {
+        "name": "Falcons",
+        "id": 11283
+      },
+      {
+        "name": "Ninjas in Pyjamas",
+        "id": 4411
+      },
+      {
+        "name": "BIG",
+        "id": 7532
+      },
+      {
+        "name": "FURIA",
+        "id": 8297
+      },
+      {
+        "name": "FlyQuest",
+        "id": 12774
+      },
+      {
+        "name": "MIBR",
+        "id": 9215
+      },
+      {
+        "name": "fnatic",
+        "id": 4991
+      },
+      {
+        "name": "ENCE",
+        "id": 4869
+      },
+      {
+        "name": "M80",
+        "id": 12376
+      },
+      {
+        "name": "3DMAX",
+        "id": 4914
+      },
+      {
+        "name": "Imperial",
+        "id": 9455
+      },
+      {
+        "name": "Sangal",
+        "id": 10333
+      },
+      {
+        "name": "Lynn Vision",
+        "id": 8840
+      },
+      {
+        "name": "KOI",
+        "id": 12591
+      },
+      {
+        "name": "RED Canids",
+        "id": 7176
+      },
+      {
+        "name": "ATOX",
+        "id": 12312
+      },
+      {
+        "name": "Rooster",
+        "id": 9881
+      },
+      {
+        "name": "Wildcard",
+        "id": 12257
+      }
+    ],
+    "matches": []
+  },
+  {
+    "id": 7556,
+    "tournamentName": "BLAST Premier Fall Final 2024",
+    "dateStart": "2024-09-25T10:00:00.000Z",
+    "dateEnd": "2024-09-29T10:00:00.000Z",
+    "location": "Copenhagen, Denmark (DK)",
+    "prizePool": "$425,000",
+    "teams": [],
+    "matches": []
+  },
+  {
+    "id": 7602,
+    "tournamentName": "ESL Challenger Atlanta 2024",
+    "dateStart": "2024-10-04T10:00:00.000Z",
+    "dateEnd": "2024-10-06T10:00:00.000Z",
+    "location": "Atlanta, GA, US (US)",
+    "prizePool": "$100,000",
+    "teams": [],
+    "matches": []
+  },
+  {
+    "id": 7439,
+    "tournamentName": "IEM Rio 2024",
+    "dateStart": "2024-10-07T10:00:00.000Z",
+    "dateEnd": "2024-10-13T10:00:00.000Z",
+    "location": "Rio de Janeiro, Brazil (BR)",
+    "prizePool": "$250,000",
+    "teams": [],
+    "matches": []
+  },
+  {
+    "id": 7862,
+    "tournamentName": "Perfect World Shanghai Major 2024 Asia RMR",
+    "dateStart": "2024-11-11T11:00:00.000Z",
+    "dateEnd": "2024-11-14T11:00:00.000Z",
+    "location": "Shanghai, China (CN)",
+    "prizePool": "PW Shanghai Major spots",
+    "teams": [],
+    "matches": []
+  },
+  {
+    "id": 7863,
+    "tournamentName": "Perfect World Shanghai Major 2024 Americas RMR",
+    "dateStart": "2024-11-12T11:00:00.000Z",
+    "dateEnd": "2024-11-15T11:00:00.000Z",
+    "location": "Shanghai, China (CN)",
+    "prizePool": "PW Shanghai Major spots",
+    "teams": [],
+    "matches": []
+  },
+  {
+    "id": 7557,
+    "tournamentName": "BLAST Premier World Final 2024",
+    "dateStart": "2024-11-13T11:00:00.000Z",
+    "dateEnd": "2024-11-17T11:00:00.000Z",
+    "location": "TBA (WORLD)",
+    "prizePool": "$1,000,000",
+    "teams": [
+      {
+        "name": "Spirit",
+        "id": 7020
+      },
+      {
+        "name": "Natus Vincere",
+        "id": 4608
+      }
+    ],
+    "matches": []
+  },
+  {
+    "id": 7864,
+    "tournamentName": "Perfect World Shanghai Major 2024 Europe RMR A",
+    "dateStart": "2024-11-17T11:00:00.000Z",
+    "dateEnd": "2024-11-20T11:00:00.000Z",
+    "location": "Shanghai, China (CN)",
+    "prizePool": "PW Shanghai Major spots",
+    "teams": [],
+    "matches": []
+  },
+  {
+    "id": 7865,
+    "tournamentName": "Perfect World Shanghai Major 2024 Europe RMR B",
+    "dateStart": "2024-11-21T11:00:00.000Z",
+    "dateEnd": "2024-11-24T11:00:00.000Z",
+    "location": "Shanghai, China (CN)",
+    "prizePool": "PW Shanghai Major spots",
+    "teams": [],
+    "matches": []
+  },
+  {
+    "id": 7603,
+    "tournamentName": "ESL Challenger Katowice 2024",
+    "dateStart": "2024-11-22T11:00:00.000Z",
+    "dateEnd": "2024-11-24T11:00:00.000Z",
+    "location": "Katowice, Poland (PL)",
+    "prizePool": "$100,000",
+    "teams": [],
+    "matches": []
+  },
+  {
+    "id": 7861,
+    "tournamentName": "Perfect World Shanghai Major 2024 Opening Stage",
+    "dateStart": "2024-11-30T11:00:00.000Z",
+    "dateEnd": "2024-12-03T11:00:00.000Z",
+    "location": "Shanghai, China (CN)",
+    "prizePool": "Elimination Stage spots",
+    "teams": [],
+    "matches": []
+  },
+  {
+    "id": 7524,
+    "tournamentName": "Perfect World Shanghai Major 2024",
+    "dateStart": "2024-12-05T11:00:00.000Z",
+    "dateEnd": "2024-12-15T11:00:00.000Z",
+    "location": "Shanghai, China (CN)",
+    "prizePool": "$1,250,000",
+    "teams": [],
+    "matches": []
+  },
+  {
+    "id": 7901,
+    "tournamentName": "HLTV Awards 2024",
+    "dateStart": "2025-01-11T11:00:00.000Z",
+    "dateEnd": "2025-01-11T11:00:00.000Z",
+    "location": "Belgrade, Serbia (RS)",
+    "prizePool": "_",
+    "teams": [],
+    "matches": []
+  },
+  {
+    "id": 7903,
+    "tournamentName": "BLAST Bounty Season 1",
+    "dateStart": "2025-01-13T11:00:00.000Z",
+    "dateEnd": "2025-01-18T11:00:00.000Z",
+    "location": "Europe (Online) (EU)",
+    "prizePool": "TBA",
+    "teams": [],
+    "matches": []
+  },
+  {
+    "id": 7909,
+    "tournamentName": "BLAST Bounty Season 1 Finals",
+    "dateStart": "2025-01-24T11:00:00.000Z",
+    "dateEnd": "2025-01-26T11:00:00.000Z",
+    "location": "Copenhagen, Denmark (DK)",
+    "prizePool": "TBA",
+    "teams": [],
+    "matches": []
+  },
+  {
+    "id": 7904,
+    "tournamentName": "BLAST Open Lisbon 2025",
+    "dateStart": "2025-03-17T11:00:00.000Z",
+    "dateEnd": "2025-03-23T11:00:00.000Z",
+    "location": "Copenhagen, Denmark (DK)",
+    "prizePool": "TBA",
+    "teams": [],
+    "matches": []
+  },
+  {
+    "id": 7911,
+    "tournamentName": "BLAST Open Lisbon 2025 Finals",
+    "dateStart": "2025-03-28T11:00:00.000Z",
+    "dateEnd": "2025-03-30T11:00:00.000Z",
+    "location": "Lisbon, Portugal (PT)",
+    "prizePool": "TBA",
+    "teams": [],
+    "matches": []
+  },
+  {
+    "id": 7905,
+    "tournamentName": "BLAST Rivals Season 1",
+    "dateStart": "2025-04-28T10:00:00.000Z",
+    "dateEnd": "2025-05-04T10:00:00.000Z",
+    "location": " (WORLD)",
+    "prizePool": "TBA",
+    "teams": [],
+    "matches": []
+  },
+  {
+    "id": 7902,
+    "tournamentName": "BLAST.tv Austin Major 2025",
+    "dateStart": "2025-06-09T10:00:00.000Z",
+    "dateEnd": "2025-06-22T10:00:00.000Z",
+    "location": "Austin, TX, US (US)",
+    "prizePool": "$1,250,000",
+    "teams": [],
+    "matches": []
+  },
+  {
+    "id": 7906,
+    "tournamentName": "BLAST Bounty Season 2",
+    "dateStart": "2025-08-04T10:00:00.000Z",
+    "dateEnd": "2025-08-09T10:00:00.000Z",
+    "location": "Europe (Online) (EU)",
+    "prizePool": "TBA",
+    "teams": [],
+    "matches": []
+  },
+  {
+    "id": 7910,
+    "tournamentName": "BLAST Bounty Season 2 Finals",
+    "dateStart": "2025-08-15T10:00:00.000Z",
+    "dateEnd": "2025-08-17T10:00:00.000Z",
+    "location": "Copenhagen, Denmark (DK)",
+    "prizePool": "TBA",
+    "teams": [],
+    "matches": []
+  },
+  {
+    "id": 7907,
+    "tournamentName": "BLAST Open London 2025",
+    "dateStart": "2025-08-25T10:00:00.000Z",
+    "dateEnd": "2025-08-31T10:00:00.000Z",
+    "location": "Copenhagen, Denmark (DK)",
+    "prizePool": "TBA",
+    "teams": [],
+    "matches": []
+  },
+  {
+    "id": 7912,
+    "tournamentName": "BLAST Open London 2025 Finals",
+    "dateStart": "2025-09-05T10:00:00.000Z",
+    "dateEnd": "2025-09-07T10:00:00.000Z",
+    "location": "London, United Kingdom (GB)",
+    "prizePool": "TBA",
+    "teams": [],
+    "matches": []
+  },
+  {
+    "id": 7908,
+    "tournamentName": "BLAST Rivals Season 2",
+    "dateStart": "2025-11-10T11:00:00.000Z",
+    "dateEnd": "2025-11-16T11:00:00.000Z",
+    "location": " (WORLD)",
+    "prizePool": "TBA",
+    "teams": [],
+    "matches": []
+  },
+  {
+    "id": 7944,
+    "tournamentName": "ESL Challenger League Season 48 Oceania",
+    "dateStart": "2024-07-16T10:00:00.000Z",
+    "dateEnd": "2024-10-20T10:00:00.000Z",
+    "location": "Oceania (Online) (OCE)",
+    "prizePool": "$10,000",
+    "teams": [
+      {
+        "name": "FlyQuest",
+        "id": 12774
+      },
+      {
+        "name": "Bad News Kangaroos",
+        "id": 12587
+      },
+      {
+        "name": "Rooster",
+        "id": 9881
+      },
+      {
+        "name": "Mindfreak",
+        "id": 11668
+      },
+      {
+        "name": "KZG",
+        "id": 12152
+      },
+      {
+        "name": "DXA",
+        "id": 12276
+      },
+      {
+        "name": "Arcade",
+        "id": 12363
+      },
+      {
+        "name": "Vantage",
+        "id": 12455
+      },
+      {
+        "name": "MANTRA",
+        "id": 12472
+      },
+      {
+        "name": "The Art of War",
+        "id": 12884
+      }
+    ],
+    "matches": []
+  },
+  {
+    "id": 7949,
+    "tournamentName": "Thunderpick World Championship 2024 SA Closed Qualifier 2",
+    "dateStart": "2024-07-17T10:00:00.000Z",
+    "dateEnd": "2024-07-22T10:00:00.000Z",
+    "location": "South America (Online) (SAM)",
+    "prizePool": "$25,000",
+    "teams": [],
+    "matches": []
+  },
+  {
+    "id": 7786,
+    "tournamentName": "Ace South American Masters Fall 2024 - BLAST Premier Qualifier",
+    "dateStart": "2024-07-18T10:00:00.000Z",
+    "dateEnd": "2024-07-21T10:00:00.000Z",
+    "location": "South America (Online) (SAM)",
+    "prizePool": "Fall Showdown spot",
+    "teams": [
+      {
+        "name": "paiN",
+        "id": 4773
+      },
+      {
+        "name": "Imperial",
+        "id": 9455
+      },
+      {
+        "name": "BESTIA",
+        "id": 12144
+      },
+      {
+        "name": "Fluxo",
+        "id": 11837
+      },
+      {
+        "name": "ODDIK",
+        "id": 11768
+      },
+      {
+        "name": "Case",
+        "id": 10894
+      },
+      {
+        "name": "Vikings KR",
+        "id": 12755
+      },
+      {
+        "name": "Amigos de T2M4SS",
+        "id": 12880
+      }
+    ],
+    "matches": []
+  },
+  {
+    "id": 7946,
+    "tournamentName": "Elisa Invitational Fall 2024",
+    "dateStart": "2024-08-12T10:00:00.000Z",
+    "dateEnd": "2024-09-14T10:00:00.000Z",
+    "location": "Europe (Online) (EU)",
+    "prizePool": "$25,000",
+    "teams": [],
+    "matches": []
+  },
+  {
+    "id": 7877,
+    "tournamentName": "Perfect World Shanghai Major 2024 GCC RMR Open Qualifier",
+    "dateStart": "2024-08-21T10:00:00.000Z",
+    "dateEnd": "2024-08-22T10:00:00.000Z",
+    "location": "Middle East (Online) (WORLD)",
+    "prizePool": "Closed Qualifier spots",
+    "teams": [],
+    "matches": []
+  },
+  {
+    "id": 7876,
+    "tournamentName": "Perfect World Shanghai Major 2024 ZA RMR Open Qualifier",
+    "dateStart": "2024-08-21T10:00:00.000Z",
+    "dateEnd": "2024-08-22T10:00:00.000Z",
+    "location": "South Africa (Online) (ZA)",
+    "prizePool": "Closed Qualifier spots",
+    "teams": [],
+    "matches": []
+  },
+  {
+    "id": 7875,
+    "tournamentName": "Perfect World Shanghai Major 2024 Middle East RMR Open Qualifier",
+    "dateStart": "2024-08-21T10:00:00.000Z",
+    "dateEnd": "2024-08-22T10:00:00.000Z",
+    "location": "Middle East (Online) (WORLD)",
+    "prizePool": "Closed Qualifier spots",
+    "teams": [],
+    "matches": []
+  },
+  {
+    "id": 7867,
+    "tournamentName": "Perfect World Shanghai Major 2024 EU RMR Closed Qualifier B",
+    "dateStart": "2024-08-21T10:00:00.000Z",
+    "dateEnd": "2024-08-24T10:00:00.000Z",
+    "location": "Europe (Online) (EU)",
+    "prizePool": "Europe RMR spots",
+    "teams": [],
+    "matches": []
+  },
+  {
+    "id": 7866,
+    "tournamentName": "Perfect World Shanghai Major 2024 EU RMR Closed Qualifier A",
+    "dateStart": "2024-08-21T10:00:00.000Z",
+    "dateEnd": "2024-08-24T10:00:00.000Z",
+    "location": "Europe (Online) (EU)",
+    "prizePool": "Europe RMR spots",
+    "teams": [],
+    "matches": []
+  },
+  {
+    "id": 7879,
+    "tournamentName": "Perfect World Shanghai Major 2024 China RMR Open Qualifier",
+    "dateStart": "2024-08-23T10:00:00.000Z",
+    "dateEnd": "2024-08-24T10:00:00.000Z",
+    "location": "China (Online) (CN)",
+    "prizePool": "Closed Qualifier spots",
+    "teams": [],
+    "matches": []
+  },
+  {
+    "id": 7878,
+    "tournamentName": "Perfect World Shanghai Major 2024 OCE RMR Open Qualifier",
+    "dateStart": "2024-08-23T10:00:00.000Z",
+    "dateEnd": "2024-08-24T10:00:00.000Z",
+    "location": "Oceania (Online) (OCE)",
+    "prizePool": "Closed Qualifier spots",
+    "teams": [],
+    "matches": []
+  },
+  {
+    "id": 7881,
+    "tournamentName": "Perfect World Shanghai Major 2024 East Asia RMR Open Qualifier",
+    "dateStart": "2024-08-25T10:00:00.000Z",
+    "dateEnd": "2024-08-26T10:00:00.000Z",
+    "location": "Asia (Online) (ASIA)",
+    "prizePool": "Closed Qualifier spots",
+    "teams": [],
+    "matches": []
+  },
+  {
+    "id": 7880,
+    "tournamentName": "Perfect World Shanghai Major 2024 Asia RMR Open Qualifier",
+    "dateStart": "2024-08-25T10:00:00.000Z",
+    "dateEnd": "2024-08-26T10:00:00.000Z",
+    "location": "Asia (Online) (ASIA)",
+    "prizePool": "Closed Qualifier spots",
+    "teams": [],
+    "matches": []
+  },
+  {
+    "id": 7874,
+    "tournamentName": "Perfect World Shanghai Major 2024 Middle East RMR Closed Qualifier",
+    "dateStart": "2024-08-25T10:00:00.000Z",
+    "dateEnd": "2024-08-27T10:00:00.000Z",
+    "location": "Middle East (Online) (WORLD)",
+    "prizePool": "Asia RMR spots",
+    "teams": [],
+    "matches": []
+  },
+  {
+    "id": 7869,
+    "tournamentName": "Perfect World Shanghai Major 2024 SA RMR Closed Qualifier",
+    "dateStart": "2024-08-26T10:00:00.000Z",
+    "dateEnd": "2024-08-28T10:00:00.000Z",
+    "location": "South America (Online) (SAM)",
+    "prizePool": "Americas RMR spots",
+    "teams": [],
+    "matches": []
+  },
+  {
+    "id": 7868,
+    "tournamentName": "Perfect World Shanghai Major 2024 NA RMR Closed Qualifier",
+    "dateStart": "2024-08-26T10:00:00.000Z",
+    "dateEnd": "2024-08-28T10:00:00.000Z",
+    "location": "North America (Online) (NAM)",
+    "prizePool": "Americas RMR spots",
+    "teams": [],
+    "matches": []
+  },
+  {
+    "id": 7871,
+    "tournamentName": "Perfect World Shanghai Major 2024 OCE RMR Closed Qualifier",
+    "dateStart": "2024-08-27T10:00:00.000Z",
+    "dateEnd": "2024-08-29T10:00:00.000Z",
+    "location": "Oceania (Online) (OCE)",
+    "prizePool": "Asia RMR spots",
+    "teams": [],
+    "matches": []
+  },
+  {
+    "id": 7870,
+    "tournamentName": "Perfect World Shanghai Major 2024 China RMR Closed Qualifier",
+    "dateStart": "2024-08-27T10:00:00.000Z",
+    "dateEnd": "2024-08-29T10:00:00.000Z",
+    "location": "China (Online) (CN)",
+    "prizePool": "Asia RMR spots",
+    "teams": [],
+    "matches": []
+  },
+  {
+    "id": 7932,
+    "tournamentName": "ESL Impact League Season 6 North America",
+    "dateStart": "2024-08-28T10:00:00.000Z",
+    "dateEnd": "2024-10-20T10:00:00.000Z",
+    "location": "North America (Online) (NAM)",
+    "prizePool": "TBA",
+    "teams": [],
+    "matches": []
+  },
+  {
+    "id": 7931,
+    "tournamentName": "ESL Impact League Season 6 South America",
+    "dateStart": "2024-08-28T10:00:00.000Z",
+    "dateEnd": "2024-10-20T10:00:00.000Z",
+    "location": "South America (Online) (SAM)",
+    "prizePool": "TBA",
+    "teams": [],
+    "matches": []
+  },
+  {
+    "id": 7930,
+    "tournamentName": "ESL Impact League Season 6 Europe",
+    "dateStart": "2024-08-28T10:00:00.000Z",
+    "dateEnd": "2024-10-20T10:00:00.000Z",
+    "location": "Europe (Online) (EU)",
+    "prizePool": "TBA",
+    "teams": [],
+    "matches": []
+  },
+  {
+    "id": 7873,
+    "tournamentName": "Perfect World Shanghai Major 2024 Asia RMR Closed Qualifier",
+    "dateStart": "2024-08-28T10:00:00.000Z",
+    "dateEnd": "2024-08-30T10:00:00.000Z",
+    "location": "Asia (Online) (ASIA)",
+    "prizePool": "Asia RMR spots",
+    "teams": [],
+    "matches": []
+  },
+  {
+    "id": 7872,
+    "tournamentName": "Perfect World Shanghai Major 2024 East Asia RMR Closed Qualifier",
+    "dateStart": "2024-08-28T10:00:00.000Z",
+    "dateEnd": "2024-08-30T10:00:00.000Z",
+    "location": "Asia (Online) (ASIA)",
+    "prizePool": "Asia RMR spots",
+    "teams": [],
+    "matches": []
+  },
+  {
+    "id": 7791,
+    "tournamentName": "Thunderpick World Championship 2024",
+    "dateStart": "2024-10-01T10:00:00.000Z",
+    "dateEnd": "2024-10-20T10:00:00.000Z",
+    "location": "Europe (Online) (EU)",
+    "prizePool": "$100,000",
+    "teams": [
+      {
+        "name": "M80",
+        "id": 12376
+      },
+      {
+        "name": "Imperial",
+        "id": 9455
+      },
+      {
+        "name": "BLEED",
+        "id": 12543
+      },
+      {
+        "name": "Legacy",
+        "id": 12468
+      }
+    ],
+    "matches": []
+  },
+  {
+    "id": 7860,
+    "tournamentName": "Elisa Masters Espoo 2024",
+    "dateStart": "2024-10-16T10:00:00.000Z",
+    "dateEnd": "2024-10-20T10:00:00.000Z",
+    "location": "Espoo, Finland (FI)",
+    "prizePool": "$200,000",
+    "teams": [
+      {
+        "name": "ENCE",
+        "id": 4869
+      },
+      {
+        "name": "B8",
+        "id": 11241
+      }
+    ],
+    "matches": []
+  },
+  {
+    "id": 7778,
+    "tournamentName": "RES Regional Champions 2024",
+    "dateStart": "2024-10-16T10:00:00.000Z",
+    "dateEnd": "2024-10-19T10:00:00.000Z",
+    "location": "Belgrade, Serbia (RS)",
+    "prizePool": "$250,000",
+    "teams": [
+      {
+        "name": "Nemiga",
+        "id": 7969
+      },
+      {
+        "name": "Fluxo",
+        "id": 11837
+      },
+      {
+        "name": "Solid",
+        "id": 12233
+      }
+    ],
+    "matches": []
+  },
+  {
+    "id": 7694,
+    "tournamentName": "Thunderpick World Championship 2024 Finals",
+    "dateStart": "2024-10-23T10:00:00.000Z",
+    "dateEnd": "2024-10-24T10:00:00.000Z",
+    "location": "TBA (WORLD)",
+    "prizePool": "$750,000",
+    "teams": [],
+    "matches": []
+  },
+  {
+    "id": 7779,
+    "tournamentName": "IESF World Championship 2024",
+    "dateStart": "2024-11-11T11:00:00.000Z",
+    "dateEnd": "2024-11-19T11:00:00.000Z",
+    "location": "Riyadh, Saudi Arabia (SA)",
+    "prizePool": "$240,000",
+    "teams": [],
+    "matches": []
+  },
+  {
+    "id": 7567,
+    "tournamentName": "ESL Impact League Season 6 Finals",
+    "dateStart": "2024-11-22T11:00:00.000Z",
+    "dateEnd": "2024-11-24T11:00:00.000Z",
+    "location": "Stockholm, Sweden (SE)",
+    "prizePool": "$150,000",
+    "teams": [],
+    "matches": []
+  }
+]
