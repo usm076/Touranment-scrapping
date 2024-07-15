@@ -1,6 +1,7 @@
 const HLTV = require('hltv');
 const fs = require('fs');
 const mongoose = require('mongoose');
+const Event = require('./models/Event'); // Import the Event model
 
 // MongoDB connection string
 const mongoURI = 'your_mongodb_connection_string_here';
@@ -10,21 +11,25 @@ mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => console.log('MongoDB connected'))
     .catch(err => console.error('MongoDB connection error:', err));
 
-// Define Mongoose schema and model
-const eventSchema = new mongoose.Schema({
-    id: Number,
-    name: String,
-    dateStart: Date,
-    dateEnd: Date,
-    // Add other fields as needed
-});
-
-const Event = mongoose.model('Event', eventSchema);
-
 async function getEventData(eventId) {
     try {
         const event = await HLTV.getEvent({ id: eventId });
-        return event;
+        return {
+            id: event.id,
+            name: event.name,
+            dateStart: new Date(event.dateStart),
+            dateEnd: new Date(event.dateEnd),
+            location: event.location,
+            prizePool: event.prizePool,
+            teams: event.teams.map(team => ({ name: team.name, id: team.id })),
+            matches: event.matches.map(match => ({
+                id: match.id,
+                team1: match.team1.name,
+                team2: match.team2.name,
+                date: new Date(match.date),
+                result: match.result
+            }))
+        };
     } catch (error) {
         console.error(`Error fetching event data: ${error}`);
     }
