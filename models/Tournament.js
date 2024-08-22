@@ -9,7 +9,8 @@ const tournamentSchema = new mongoose.Schema({
     prizePool: { type: String, required: true },
     teams: [{ 
         name: String,
-        id: Number
+        id: Number,
+        players: [String]
     }],
     matches: [{
         id: Number,

@@ -2,5 +2,12 @@
   "dependencies": {
     "hltv": "^3.5.0",
     "mongoose": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "scripts": {
+    "start": "node scrape.js",
+    "dev": "nodemon scrape.js"
   }
 }
