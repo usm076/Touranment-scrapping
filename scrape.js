@@ -2,7 +2,9 @@ const { HLTV } = require('hltv');
 const mongoose = require('mongoose');
 const fs = require('fs');
 const path = require('path');
-const Event = require('./models/Tournament'); // Import the Event model
+const Tournament = require('./models/Tournament'); // Import the Event model
+const Team = require('./models/Team');
+const Player = require('./models/Player');
 
 // MongoDB connection string
 const mongoURI = 'mongodb+srv://muhammadhamza:kAxvPXj0vWHfjrsq@test.8y5a9sh.mongodb.net/HLTV-Data?retryWrites=true&w=majority'; // Updated MongoDB URI
@@ -22,6 +24,52 @@ async function getEventData(eventId) {
             console.error(`Event ID ${eventId} has no teams`);
         }
 
+        const teams = event.teams ? await Promise.all(event.teams.map(async team => {
+            try {
+                const teamDetails = await HLTV.getTeam({ id: team.id });
+                const players = teamDetails.players ? await Promise.all(teamDetails.players.map(async player => {
+                    const playerDetails = await HLTV.getPlayer({ id: player.id });
+                    return {
+                        id: playerDetails.id,
+                        name: playerDetails.name
+                    };
+                })) : [];
+
+                // Save players
+                const playerIds = await Promise.all(players.map(async player => {
+                    await Player.findOneAndUpdate(
+                        { id: player.id },
+                        { id: player.id, name: player.name },
+                        { upsert: true, new: true }
+                    );
+                    return {
+                        playerId: player.id, // Use the HLTV player ID
+                        playerName: player.name
+                    };
+                }));
+
+                // Save team
+                await Team.findOneAndUpdate(
+                    { id: team.id },
+                    { id: team.id, name: team.name, players: playerIds },
+                    { upsert: true, new: true }
+                );
+
+                return {
+                    name: team.name,
+                    id: team.id,
+                    players: players.map(player => player.name)
+                };
+            } catch (teamError) {
+                console.error(`Error fetching team data for team ID ${team.id}: ${teamError}`);
+                return {
+                    name: team.name,
+                    id: team.id,
+                    players: []
+                };
+            }
+        })) : [];
+
         return {
             id: event.id,
             tournamentName: event.name, // Updated to match the schema
@@ -29,27 +77,7 @@ async function getEventData(eventId) {
             dateEnd: new Date(event.dateEnd),
             location: event.location ? `${event.location.name} (${event.location.code})` : 'Unknown', // Convert location object to string
             prizePool: event.prizePool,
-            teams: event.teams ? await Promise.all(event.teams.map(async team => {
-                try {
-                    // console.log(`Fetching team data for team ID: ${team.id}`);
-                    const teamDetails = await HLTV.getTeam({ id: team.id });
-                    // console.log(`Fetched team data: ${JSON.stringify(teamDetails)}`);
-                    const playerNames = teamDetails.players ? teamDetails.players.map(player => player.name) : [];
-                    // console.log(`Player names for team ID ${team.id}: ${playerNames}`);
-                    return {
-                        name: team.name,
-                        id: team.id,
-                        players: playerNames // Fetch player names
-                    };
-                } catch (teamError) {
-                    console.error(`Error fetching team data for team ID ${team.id}: ${teamError}`);
-                    return {
-                        name: team.name,
-                        id: team.id,
-                        players: [] // Return an empty array if there's an error
-                    };
-                }
-            })) : [], // Added check for undefined
+            teams: teams,
             matches: event.matches ? event.matches.map(match => ({
                 id: match.id,
                 team1: match.team1 ? match.team1.name : 'Unknown',
@@ -90,7 +118,7 @@ async function main() {
             eventsData.push(eventData);
 
             // Save or update event data in MongoDB
-            await Event.findOneAndUpdate(
+            await Tournament.findOneAndUpdate(
                 { id: eventData.id }, // search query
                 eventData, // new data
                 { upsert: true, new: true } // options
