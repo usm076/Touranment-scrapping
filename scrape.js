@@ -16,9 +16,7 @@ mongoose.connect(mongoURI)
 
 async function getEventData(eventId) {
     try {
-        // console.log(`Fetching data for event ID: ${eventId}`);
         const event = await HLTV.getEvent({ id: eventId });
-        // console.log(`Fetched event data: ${JSON.stringify(event)}`);
 
         if (!event.teams) {
             console.error(`Event ID ${eventId} has no teams`);
@@ -29,17 +27,40 @@ async function getEventData(eventId) {
                 const teamDetails = await HLTV.getTeam({ id: team.id });
                 const players = teamDetails.players ? await Promise.all(teamDetails.players.map(async player => {
                     const playerDetails = await HLTV.getPlayer({ id: player.id });
-                    return {
+
+                    // Validate and sanitize player data
+                    const sanitizedPlayerDetails = {
                         id: playerDetails.id,
-                        name: playerDetails.name
+                        name: playerDetails.name,
+                        ign: playerDetails.ign,
+                        image: playerDetails.image,
+                        age: playerDetails.age,
+                        country: playerDetails.country,
+                        team: playerDetails.team,
+                        twitter: playerDetails.twitter,
+                        twitch: playerDetails.twitch,
+                        facebook: playerDetails.facebook,
+                        instagram: playerDetails.instagram,
+                        statistics: {
+                            rating: playerDetails.statistics?.rating || 0,
+                            killsPerRound: playerDetails.statistics?.killsPerRound || 0,
+                            headshots: playerDetails.statistics?.headshots || 0,
+                            mapsPlayed: playerDetails.statistics?.mapsPlayed || 0,
+                            deathsPerRound: playerDetails.statistics?.deathsPerRound || 0,
+                            roundsContributed: playerDetails.statistics?.roundsContributed || 0
+                        },
+                        teams: playerDetails.teams || [],
+                        news: playerDetails.news || []
                     };
+
+                    return sanitizedPlayerDetails;
                 })) : [];
 
                 // Save players
                 const playerIds = await Promise.all(players.map(async player => {
                     await Player.findOneAndUpdate(
                         { id: player.id },
-                        { id: player.id, name: player.name },
+                        player,
                         { upsert: true, new: true }
                     );
                     return {
@@ -48,10 +69,25 @@ async function getEventData(eventId) {
                     };
                 }));
 
+                // Validate and sanitize team data
+                const sanitizedTeamDetails = {
+                    id: team.id,
+                    name: team.name,
+                    logo: teamDetails.logo,
+                    facebook: teamDetails.facebook,
+                    twitter: teamDetails.twitter,
+                    instagram: teamDetails.instagram,
+                    country: teamDetails.country,
+                    rank: teamDetails.rank,
+                    players: playerIds,
+                    rankingDevelopment: teamDetails.rankingDevelopment || [],
+                    news: teamDetails.news || []
+                };
+
                 // Save team
                 await Team.findOneAndUpdate(
                     { id: team.id },
-                    { id: team.id, name: team.name, players: playerIds },
+                    sanitizedTeamDetails,
                     { upsert: true, new: true }
                 );
 
@@ -82,20 +118,19 @@ async function getEventData(eventId) {
                 id: match.id,
                 team1: match.team1 ? match.team1.name : 'Unknown',
                 team2: match.team2 ? match.team2.name : 'Unknown',
-                date: new Date(match.date),
+                date: match.date ? new Date(match.date) : null,
                 result: match.result
             })) : [] // Added check for undefined
         };
     } catch (error) {
         console.error(`Error fetching event data for event ID ${eventId}: ${error}`);
+        return null; // Return null in case of error
     }
 }
 
 async function getAllTournaments() {
     try {
-        // console.log('Fetching all tournaments');
         const tournaments = await HLTV.getEvents(); // Ensure getEvents is correctly called
-        // console.log(`Fetched tournaments: ${JSON.stringify(tournaments)}`);
         return tournaments.map(tournament => tournament.id);
     } catch (error) {
         console.error(`Error fetching tournaments: ${error}`);
@@ -114,7 +149,6 @@ async function main() {
     for (const eventId of eventIds) {
         const eventData = await getEventData(eventId);
         if (eventData) {
-            // console.log(`Event data to be saved: ${JSON.stringify(eventData)}`);
             eventsData.push(eventData);
 
             // Save or update event data in MongoDB
@@ -123,7 +157,6 @@ async function main() {
                 eventData, // new data
                 { upsert: true, new: true } // options
             );
-            // console.log(`Saved event data for event ID: ${eventData.id}`);
         }
 
         // Delay to avoid getting banned
@@ -133,7 +166,6 @@ async function main() {
     // Save the JSON data to a file on the desktop
     const filePath = path.join(require('os').homedir(), 'Desktop', 'eventsData.json');
     fs.writeFileSync(filePath, JSON.stringify(eventsData, null, 2));
-    // console.log(`Data saved to ${filePath}`);
 }
 
 main();
