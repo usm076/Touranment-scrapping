@@ -12,6 +12,7 @@
   },
   "scripts": {
     "start": "node scrape.js",
-    "dev": "nodemon scrape.js"
+    "dev": "nodemon scrape.js",
+    "api-server": "nodemon server.js"
   }
 }
