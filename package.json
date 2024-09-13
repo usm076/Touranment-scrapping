@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "express": "^4.21.0",
     "hltv": "^3.5.0",
     "mongoose": "^8.5.1"
   },
@@ -8,6 +9,7 @@
   },
   "scripts": {
     "start": "node scrape.js",
-    "dev": "nodemon scrape.js"
+    "dev": "nodemon scrape.js",
+    "api-server": "nodemon server.js"
   }
 }
